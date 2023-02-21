@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+    .first-cards-container, .second-cards-container{
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .first-geometry-container{
+      flex-direction: column-reverse;
+
+    }
+  }
+  .geo-img{
+    width:fit-content;
+    height:10em;
+  }
+  .triangle-input-field1, .triangle-input-field2, .rectangle-input-field1, .rectangle-input-field2 {
+    width: 75%;
+  }
