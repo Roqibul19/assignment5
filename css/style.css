@@ -11,8 +11,8 @@
     }
   }
   .geo-img{
-    width:fit-content;
-    height:10em;
+    width:60%;
+    height:40%;
   }
   .triangle-input-field1, .triangle-input-field2, .rectangle-input-field1, .rectangle-input-field2 {
     width: 75%;
