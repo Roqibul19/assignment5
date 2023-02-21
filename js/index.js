@@ -38,3 +38,14 @@ document.getElementById('5th-card').addEventListener('click',function(){
     console.log(ariaPentagon);
  })
 
+//  6th or last card
+
+document.getElementById('6th-card').addEventListener('click',function(){
+    const valueOfaStringCard6 = document.getElementById('Ellipse-a-value');
+    const valueOfbStringCard6 = document.getElementById('Ellipse-b-value');
+    const valueOfaCard6=valueOfaStringCard6.innerText;
+    const valueOfbCard6= valueOfbStringCard6.innerText;
+
+    const AreaEllipse= (3.14*parseFloat(valueOfaCard6).toFixed(2)*parseFloat(valueOfbCard6)).toFixed(2);
+    console.log(AreaEllipse);
+ });
