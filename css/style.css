@@ -32,3 +32,6 @@
     text-align: center;
 
   }
+  .card-title{
+    text-decoration-line: underline;
+  }

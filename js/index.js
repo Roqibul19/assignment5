@@ -8,6 +8,19 @@ document.getElementById('first-card').addEventListener('click',function(){
     valueOfbString.value='';
     valueOfhString.value='';
     
+
+    // background color change randomly
+    function random_bg_color() {
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+     console.log(bgColor);
+      
+        document.body.style.background = bgColor;
+        }
+    
+    random_bg_color();
     
 
     //   validation
@@ -28,6 +41,19 @@ document.getElementById('second-card').addEventListener('click',function(){
     const Name=geometryNames('name2');
     displayData(Name, Area);
     
+    // background color change randomly
+    function random_bg_color() {
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+     console.log(bgColor);
+      
+        document.body.style.background = bgColor;
+        }
+    
+    random_bg_color();
+
     serial=serial+1;
     
 })
@@ -36,6 +62,19 @@ document.getElementById('3rd-card').addEventListener('click',function(){
    Area= elementValues23('parallelogram-b-value','parallelogram-h-value');
    const Name=geometryNames('name3');
    displayData(Name, Area);
+   
+   // background color change randomly
+   function random_bg_color() {
+    var x = Math.floor(Math.random() * 256);
+    var y = Math.floor(Math.random() * 256);
+    var z = Math.floor(Math.random() * 256);
+    var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+ console.log(bgColor);
+  
+    document.body.style.background = bgColor;
+    }
+
+random_bg_color();
 
    serial=serial+1;
 })
@@ -46,6 +85,19 @@ document.getElementById('4th-card').addEventListener('click',function(){
     Area= elementValues45('rhombus-d1-value','rhombus-d2-value');
     const Name=geometryNames('name4');
     displayData(Name, Area);
+    
+    // background color change randomly
+    function random_bg_color() {
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+     console.log(bgColor);
+      
+        document.body.style.background = bgColor;
+        }
+    
+    random_bg_color();
 
     serial =serial + 1;
  })
@@ -55,6 +107,19 @@ document.getElementById('5th-card').addEventListener('click',function(){
     Area= elementValues45('Pentagon-p-value','Pentagon-b-value');
     const Name=geometryNames('name5');
     displayData(Name, Area);
+    
+    // background color change randomly
+    function random_bg_color() {
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+     console.log(bgColor);
+      
+        document.body.style.background = bgColor;
+        }
+    
+    random_bg_color();
 
     serial = serial + 1;
  })
@@ -70,7 +135,20 @@ document.getElementById('6th-card').addEventListener('click',function(){
     const Area= (3.14*parseFloat(valueOfaCard6).toFixed(2)*parseFloat(valueOfbCard6)).toFixed(2);
     const Name=geometryNames('name6');
     displayData(Name, Area);
-
+    
+    // background color change randomly
+    function random_bg_color() {
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+     console.log(bgColor);
+      
+        document.body.style.background = bgColor;
+        }
+    
+    random_bg_color();
+    
     serial=serial+1;
  });
 
@@ -79,3 +157,5 @@ document.getElementById('6th-card').addEventListener('click',function(){
 document.getElementById('my-blog').addEventListener('click',function(){
     window.location.href='blog.html';
 })
+
+
