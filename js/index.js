@@ -7,6 +7,9 @@ document.getElementById('first-card').addEventListener('click',function(){
     const valueOfh= valueOfhString.value;
     valueOfbString.value='';
     valueOfhString.value='';
+    
+    
+
     //   validation
     if(valueOfb<0 || valueOfh<0 || isNaN(valueOfb) || isNaN(valueOfh) || valueOfb=='' || valueOfh==''){
         alert('Plz give valid number');
@@ -70,3 +73,9 @@ document.getElementById('6th-card').addEventListener('click',function(){
 
     serial=serial+1;
  });
+
+
+//  blog part
+document.getElementById('my-blog').addEventListener('click',function(){
+    window.location.href='blog.html';
+})
