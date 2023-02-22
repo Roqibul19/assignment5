@@ -17,3 +17,18 @@
   .triangle-input-field1, .triangle-input-field2, .rectangle-input-field1, .rectangle-input-field2 {
     width: 75%;
   }
+  .button-mitre{
+    color: rgb(253, 253, 255);
+    background-color: rgb(47, 0, 255);
+    border: none;
+    border-radius: 6px;
+    
+  }
+  #calculation-container{
+    padding:2px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    text-align: center;
+
+  }
